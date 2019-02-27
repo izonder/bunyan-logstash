@@ -1,6 +1,6 @@
 {
   "name": "bunyan-logstash",
-  "version": "0.3.4",
+  "version": "0.4.0",
   "description": "Logstash plugin for Bunyan",
   "repository": "https://github.com/izonder/bunyan-logstash.git",
   "homepage": "https://github.com/izonder/bunyan-logstash",
