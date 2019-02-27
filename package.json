@@ -1,0 +1,25 @@
+{
+  "name": "bunyan-logstash",
+  "version": "0.3.4",
+  "description": "Logstash plugin for Bunyan",
+  "repository": "https://github.com/izonder/bunyan-logstash.git",
+  "homepage": "https://github.com/izonder/bunyan-logstash",
+  "main": "lib/logstash.js",
+  "author": "Justin Rainbow",
+  "contributors": [
+    "Dmitry Morgachev <izonder@gmail.com>"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "bunyan": "^1.3.5",
+    "extend": "^2.0.0"
+  },
+  "devDependencies": {
+    "expect.js": "^0.3.1",
+    "mocha": "^6.0.2",
+    "sinon": "^1.12.2"
+  }
+}
