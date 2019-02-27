@@ -6,7 +6,7 @@ var logstash = require('../lib/logstash');
 describe( "logstash", function() {
     it( "works", function() {
         var stream = logstash.createStream();
-        sinon.stub( stream, "send", function() {
+        sinon.stub( stream, "send" ).callsFake( function() {
             console.log("send: ", arguments )
         } );
         stream.write({ time: new Date(), msg: "Test", level: 20, testField: 1 } );
