@@ -8,6 +8,26 @@ Thanks Justin Rainbow for the package. I took over the package due to some found
 
 ## How-to
 
+### Installation
+
+With NPM:
+
+```bash
+npm install izonder/bunyan-logstash
+```
+
+With Yarn:
+
+```bash
+yarn add izonder/bunyan-logstash
+```
+
+Adding specific version:
+
+```bash
+yarn add izonder/bunyan-logstash#0.4.1
+```
+
 ### Configuration options
 
 |Option|Type|Default|
