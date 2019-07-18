@@ -25,7 +25,7 @@ yarn add izonder/bunyan-logstash
 Adding specific version:
 
 ```bash
-yarn add izonder/bunyan-logstash#0.4.1
+yarn add izonder/bunyan-logstash#0.4.3
 ```
 
 ### Configuration options
